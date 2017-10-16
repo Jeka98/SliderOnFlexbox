@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	padding: 0;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	height: 50vh;
+	border: 1px solid #000;
+	background-color: silver;
+	flex-basis: 25%;
+	transition: all 0.2s;
+}
+
+.item:hover {
+	flex-basis: 70%;
+}
+
+.item-1 {
+	background: url(img11.png) no-repeat center center;
+	background-size: cover;
+}
+
+.item-2 {
+	background: url(img22.png) no-repeat center center;
+	background-size: cover;
+}
+
+.item-3 {
+	background: url(img33.png) no-repeat center center;
+	background-size: cover;
+}
+
+.item-4 {
+	background: url(img44.png) no-repeat center center;
+	background-size: cover;
+}
